@@ -9,9 +9,14 @@
 #include "Opcion1.cpp" 
 #include "Opcion2.cpp"
 #include "Opcion3.cpp"
+#include "Opcion4.cpp" //Paula Segura.
 #include "Opcion7.cpp"
+#include "Opcion8.cpp" //Paula Segura.
 #include "Opcion11.cpp"
+#include "Opcion12.cpp" //Paula Segura.
 #include "Opcion15.cpp"
+#include "Opcion16.cpp" //Paula Segura.
+#include "Opcion19.cpp" //Paula Segura.
 
 
 using namespace std;
@@ -62,6 +67,7 @@ int main(void) {
             	Opcion3();
             	break;
             case 4:
+            	Opcion4();
             	break;
             case 5:
             	break;
@@ -71,6 +77,7 @@ int main(void) {
             	Opcion7();
             	break;
             case 8:
+            	Opcion8();
             	break;
             case 9:
             	break;
@@ -80,6 +87,7 @@ int main(void) {
             	Opcion11();
             	break;
             case 12:
+            	Opcion12();
             	break;
             case 13:
             	break;
@@ -89,12 +97,14 @@ int main(void) {
             	Opcion15();
             	break;
             case 16:
+            	Opcion16();
             	break;
             case 17:
             	break;
             case 18:
             	break;
             case 19:
+            	Opcion19();
             	break;
             case 20:
             	break;
