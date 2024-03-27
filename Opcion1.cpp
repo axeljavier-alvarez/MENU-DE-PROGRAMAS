@@ -1,9 +1,12 @@
-//Create program basic for Addition, Subtraction, Multiplication and Division of two numbers with variable
+// PROYECTO GRUPAL 2
 #include <iostream>
-#include <stdio.h>
-#include <wchar.h>
-#include <locale.h>
-#include <stdlib.h>
+#include <cstdlib>
+#include <iomanip>
+#include <math.h> // Para caso 16.
+#include <string> // Para caso 4 y 12.
+#include <algorithm> //Para caso 4. 
+#include <sstream> // Para caso 12.
+#include <vector>
 
 using namespace std;
 

@@ -6,9 +6,13 @@
 #include <stdlib.h>
 
 // IMPORTACION DE LAS DIFERENTES OPCIONES DE UN MENU
-#include "Opcion1.cpp"
+#include "Opcion1.cpp" 
 #include "Opcion2.cpp"
+#include "Opcion3.cpp"
 #include "Opcion7.cpp"
+#include "Opcion11.cpp"
+#include "Opcion15.cpp"
+
 
 using namespace std;
 int main(void) {
@@ -55,6 +59,7 @@ int main(void) {
                 break;
                 
             case 3:
+            	Opcion3();
             	break;
             case 4:
             	break;
@@ -64,6 +69,34 @@ int main(void) {
             	break;
             case 7:
             	Opcion7();
+            	break;
+            case 8:
+            	break;
+            case 9:
+            	break;
+            case 10:
+                break;
+            case 11:
+            	Opcion11();
+            	break;
+            case 12:
+            	break;
+            case 13:
+            	break;
+            case 14:
+            	break;
+            case 15:
+            	Opcion15();
+            	break;
+            case 16:
+            	break;
+            case 17:
+            	break;
+            case 18:
+            	break;
+            case 19:
+            	break;
+            case 20:
             	break;
             // no cambiar este case ya que es para salir del menu
              case 0:
