@@ -11,6 +11,22 @@
 using namespace std;
 
 void Opcion11() {
-	
+	int decimal;
+  cout << "Ingrese un número decimal: ";
+  cin >> decimal;
+
+  // Conversión a binario usando el método de división sucesiva
+  int binario[10], i = 0;
+  while (decimal > 0) {
+    binario[i++] = decimal % 2;
+    decimal /= 2;
+  }
+
+  // Imprimir el número binario
+  cout << "El número binario es: ";
+  for (int j = i - 1; j >= 0; j--) {
+    cout << binario[j];
+  }
+  cout << endl;
 	
 }
