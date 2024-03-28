@@ -9,15 +9,19 @@
 #include "Opcion2.cpp"
 #include "Opcion3.cpp"
 #include "Opcion4.cpp" //Paula Segura.
+#include "opcion5.cpp" //Erick Fuentes.
 #include "Opcion6.cpp" //Henry Gonzalez
 #include "Opcion7.cpp"
 #include "Opcion8.cpp" //Paula Segura.
+#include "opcion9.cpp" //Erick Fuentes.
 #include "Opcion10.cpp" //Henry Gonzalez
 #include "Opcion11.cpp"
 #include "Opcion12.cpp" //Paula Segura.
+#include "opcion13.cpp" //Erick Fuentes.
 #include "Opcion14.cpp" //Henry Gonzalez
 #include "Opcion15.cpp"
 #include "Opcion16.cpp" //Paula Segura.
+#include "opcion17.cpp" //Erick Fuentes.
 #include "Opcion18.cpp" //Henry Gonzalez
 #include "Opcion19.cpp" //Paula Segura.
 #include "Opcion20.cpp" //Henry Gonzalez
@@ -74,6 +78,7 @@ int main(void) {
             	Opcion4();
             	break;
             case 5:
+            	opcion5();
             	break;
             case 6:
             	Opcion6();
@@ -85,6 +90,7 @@ int main(void) {
             	Opcion8();
             	break;
             case 9:
+            	opcion9();
             	break;
             case 10:
             	Opcion10();
@@ -96,6 +102,7 @@ int main(void) {
             	Opcion12();
             	break;
             case 13:
+            	opcion13();
             	break;
             case 14:
             	Opcion14();
@@ -107,6 +114,7 @@ int main(void) {
             	Opcion16();
             	break;
             case 17:
+            	opcion17();
             	break;
             case 18:
             	Opcion18();
