@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <stdio.h>
 #include <wchar.h>
@@ -10,13 +9,18 @@
 #include "Opcion2.cpp"
 #include "Opcion3.cpp"
 #include "Opcion4.cpp" //Paula Segura.
+#include "Opcion6.cpp" //Henry Gonzalez
 #include "Opcion7.cpp"
 #include "Opcion8.cpp" //Paula Segura.
+#include "Opcion10.cpp" //Henry Gonzalez
 #include "Opcion11.cpp"
 #include "Opcion12.cpp" //Paula Segura.
+#include "Opcion14.cpp" //Henry Gonzalez
 #include "Opcion15.cpp"
 #include "Opcion16.cpp" //Paula Segura.
+#include "Opcion18.cpp" //Henry Gonzalez
 #include "Opcion19.cpp" //Paula Segura.
+#include "Opcion20.cpp" //Henry Gonzalez
 
 
 using namespace std;
@@ -72,6 +76,7 @@ int main(void) {
             case 5:
             	break;
             case 6:
+            	Opcion6();
             	break;
             case 7:
             	Opcion7();
@@ -82,6 +87,7 @@ int main(void) {
             case 9:
             	break;
             case 10:
+            	Opcion10();
                 break;
             case 11:
             	Opcion11();
@@ -92,6 +98,7 @@ int main(void) {
             case 13:
             	break;
             case 14:
+            	Opcion14();
             	break;
             case 15:
             	Opcion15();
@@ -102,11 +109,13 @@ int main(void) {
             case 17:
             	break;
             case 18:
+            	Opcion18();
             	break;
             case 19:
             	Opcion19();
             	break;
             case 20:
+            	Opcion20();
             	break;
             // no cambiar este case ya que es para salir del menu
              case 0:
