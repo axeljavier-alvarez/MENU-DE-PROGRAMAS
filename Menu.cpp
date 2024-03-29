@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <stdio.h>
 #include <wchar.h>
@@ -9,9 +8,23 @@
 #include "Opcion1.cpp" 
 #include "Opcion2.cpp"
 #include "Opcion3.cpp"
+#include "Opcion4.cpp" //Paula Segura.
+#include "opcion5.cpp" //Erick Fuentes.
+#include "Opcion6.cpp" //Henry Gonzalez
 #include "Opcion7.cpp"
+#include "Opcion8.cpp" //Paula Segura.
+#include "opcion9.cpp" //Erick Fuentes.
+#include "Opcion10.cpp" //Henry Gonzalez
 #include "Opcion11.cpp"
+#include "Opcion12.cpp" //Paula Segura.
+#include "opcion13.cpp" //Erick Fuentes.
+#include "Opcion14.cpp" //Henry Gonzalez
 #include "Opcion15.cpp"
+#include "Opcion16.cpp" //Paula Segura.
+#include "opcion17.cpp" //Erick Fuentes.
+#include "Opcion18.cpp" //Henry Gonzalez
+#include "Opcion19.cpp" //Paula Segura.
+#include "Opcion20.cpp" //Henry Gonzalez
 
 
 using namespace std;
@@ -62,41 +75,55 @@ int main(void) {
             	Opcion3();
             	break;
             case 4:
+            	Opcion4();
             	break;
             case 5:
+            	opcion5();
             	break;
             case 6:
+            	Opcion6();
             	break;
             case 7:
             	Opcion7();
             	break;
             case 8:
+            	Opcion8();
             	break;
             case 9:
+            	opcion9();
             	break;
             case 10:
+            	Opcion10();
                 break;
             case 11:
             	Opcion11();
             	break;
             case 12:
+            	Opcion12();
             	break;
             case 13:
+            	opcion13();
             	break;
             case 14:
+            	Opcion14();
             	break;
             case 15:
             	Opcion15();
             	break;
             case 16:
+            	Opcion16();
             	break;
             case 17:
+            	opcion17();
             	break;
             case 18:
+            	Opcion18();
             	break;
             case 19:
+            	Opcion19();
             	break;
             case 20:
+            	Opcion20();
             	break;
             // no cambiar este case ya que es para salir del menu
              case 0:

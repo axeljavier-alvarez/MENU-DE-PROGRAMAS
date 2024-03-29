@@ -1,30 +1,32 @@
+// PROYECTO GRUPAL 2
 #include <iostream>
-#include <stdio.h>
-#include <wchar.h>
-#include <locale.h>
-#include <stdlib.h>
+#include <cstdlib>
+#include <iomanip>
+#include <math.h> // Para caso 16.
+#include <string> // Para caso 4 y 12.
+#include <algorithm> //Para caso 4. 
+#include <sstream> // Para caso 12.
+#include <vector>
 
 using namespace std;
 
 void Opcion11() {
-	int numero, remainder;
-    string valorBinario = "";
+	int decimal;
+  cout << "Ingrese un número decimal: ";
+  cin >> decimal;
 
-    cout << "Ingrese un numero decimal: ";
-    cin >> numero;
-    
-    // Verificacion para numeros negativos
-    if (numero < 0) {
-     cout << "No se pueden convertir numeros negativos " << endl;
-    }
-    
-    // Recorrido de numero
-  while (numero != 0) {
-    remainder = numero % 2;
-    valorBinario = to_string(remainder) + valorBinario;
-    numero /= 2;
+  // Conversión a binario usando el método de división sucesiva
+  int binario[10], i = 0;
+  while (decimal > 0) {
+    binario[i++] = decimal % 2;
+    decimal /= 2;
   }
 
-  cout << "Su valor binario es: " << valorBinario << endl;
+  // Imprimir el número binario
+  cout << "El número binario es: ";
+  for (int j = i - 1; j >= 0; j--) {
+    cout << binario[j];
+  }
+  cout << endl;
 	
 }
